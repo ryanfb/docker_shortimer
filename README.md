@@ -4,8 +4,8 @@ This is a Dockerized environment for running a development instance of [code4lib
 
 Requirements:
 
- * [`docker`](https://www.docker.com/)
- * [`docker-compose`](https://docs.docker.com/compose/)
+ * [`docker`](https://www.docker.com/) 1.10.0+
+ * [`docker-compose`](https://docs.docker.com/compose/) 1.6.0+
 
 Usage:
 
