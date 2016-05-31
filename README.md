@@ -13,4 +13,4 @@ Usage:
  * Run `docker-compose build && docker-compose up`
  * Open `docker.machine.ip.from-earlier:8000` in a browser
 
-If you want to use this with a `git checkout` of `shortimer` (so you can expirement with local modifications before they're committed/pushed), you can copy the files from this repository into your `shortimer` directory, then edit the `Dockerfile` to use `ADD` instead of `RUN git clone` (see [this blog post](http://ryanfb.github.io/etc/2015/07/29/git_strategies_for_docker.html) for more info).
+If you want to use this with a `git checkout` of `shortimer` (so you can experiment with local modifications before they're committed/pushed), you can copy the files from this repository into your `shortimer` directory, then edit the `Dockerfile` to use `ADD` instead of `RUN git clone` (see [this blog post](http://ryanfb.github.io/etc/2015/07/29/git_strategies_for_docker.html) for more info).
