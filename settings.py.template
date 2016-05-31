@@ -5,7 +5,7 @@ from logging.handlers import SysLogHandler
 PROJECT_DIR = os.path.dirname(os.path.abspath(__file__))
 
 DEBUG = True
-TEMPLATE_DEBUG = False
+TEMPLATE_DEBUG = DEBUG
 
 ADMINS = (
     ('Ed Summers', 'ehs@pobox.com'),
