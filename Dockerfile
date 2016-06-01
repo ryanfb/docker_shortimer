@@ -6,7 +6,7 @@ RUN apt-get update \
   && apt-get install -y python-dev python-virtualenv mysql-server libmysqlclient-dev git build-essential
 
 # Clone
-RUN git clone git://github.com/code4lib/shortimer.git && cd shortimer && git checkout 5e7850051e177fdbc27bad407ad19a4a636422be
+RUN git clone git://github.com/code4lib/shortimer.git
 # OR
 # ADD . /shortimer
 
